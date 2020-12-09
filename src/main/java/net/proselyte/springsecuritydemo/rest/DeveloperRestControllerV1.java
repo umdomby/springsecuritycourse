@@ -9,7 +9,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/api/v1/developers")
+//@RequestMapping("/api/v1/developers")
+@RequestMapping("/dev")
 public class DeveloperRestControllerV1 {
     private List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L, "Ivan", "Ivanov"),
